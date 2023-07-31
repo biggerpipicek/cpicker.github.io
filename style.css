@@ -21,8 +21,6 @@ body {
     width: 300px;
     height: 300px;
     position: relative;
-    top: 25px;
-    left: 25px;
     background-color: lightskyblue;
 }
 
@@ -30,8 +28,6 @@ body {
     width: 300px;
     height: 300px;
     position: relative;
-    top: -275px;
-    left: 350px;
     background-color: lightpink;
 }
 
@@ -41,8 +37,6 @@ body {
     height: 50px;
     font-size: 1.5em;
     float: right;
-    right: 25px;
-    top: -275px;
     background-color: white;
 }
 
@@ -52,7 +46,5 @@ body {
     height: 50px;
     font-size: 1.5em;
     float: right;
-    right: -125px;
-    top: -200px;
     background-color: white;
 }
