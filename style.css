@@ -27,7 +27,7 @@ body {
     font-size: 1.5em;
     float: right;
     right: 25px;
-    top: 25px;
+    top: -300px;
     background-color: white;
 }
 
@@ -38,6 +38,6 @@ body {
     font-size: 1.5em;
     float: right;
     right: -125px;
-    top: 100px;
+    top: -275px;
     background-color: white;
 }
