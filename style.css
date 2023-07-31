@@ -49,3 +49,8 @@ body {
     float: right;
     background-color: white;
 }
+
+input[type="range"] {
+    width: 150px;
+    height: 25px;
+}
