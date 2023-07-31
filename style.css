@@ -39,25 +39,17 @@ body {
     background-color: transparent;
 }
 
-.c-color {
-    position: relative;
-    width: 150px;
-    height: 50px;
-    font-size: 1.5em;
-    float: right;
-    background-color: white;
-}
-
 .c-hex {
     position: relative;
     width: 150px;
     height: 50px;
+    display: block;
     font-size: 1.5em;
-    float: right;
     background-color: white;
 }
 
 input[type="range"] {
+    display: block;
     width: 150px;
     height: 25px;
 }
