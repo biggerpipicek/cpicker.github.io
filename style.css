@@ -37,7 +37,7 @@ body {
     height: 50px;
     font-size: 1.5em;
     float: right;
-    right: 25px;
+    right: -100px;
     top: 100px;
     background-color: white;
 }
