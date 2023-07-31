@@ -6,6 +6,7 @@ body {
 }
 
 .container {
+    margin: auto;
     width: 750px;
     height: 350px;
     background-color: rgb(167, 88, 88);
@@ -27,7 +28,7 @@ body {
     font-size: 1.5em;
     float: right;
     right: 25px;
-    top: -300px;
+    top: -275px;
     background-color: white;
 }
 
@@ -38,6 +39,6 @@ body {
     font-size: 1.5em;
     float: right;
     right: -125px;
-    top: -225px;
+    top: -200px;
     background-color: white;
 }
