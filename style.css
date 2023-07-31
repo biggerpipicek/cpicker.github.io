@@ -6,8 +6,9 @@ body {
 }
 
 .container {
+    border-radius: 5px;
     margin: auto;
-    width: 750px;
+    width: 850px;
     height: 350px;
     background-color: rgb(167, 88, 88);
 }
@@ -16,6 +17,16 @@ body {
     width: 300px;
     height: 300px;
     position: relative;
+    top: 25px;
+    left: 25px;
+    background-color: lightskyblue;
+}
+
+.c-range-box {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: inline;
     top: 25px;
     left: 25px;
     background-color: lightskyblue;
