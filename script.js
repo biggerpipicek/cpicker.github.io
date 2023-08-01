@@ -17,7 +17,7 @@ color_range.addEventListener("input", updateColorSlider());
 function updateColor() {
     chosen_color = color_picker.value;
     color_range.style.backgroundColor = chosen_color;
-    hex_code.textContent = chosen_color;
+    hex_code.innerHTML = chosen_color;
 }
 
 //FUNCTION TO UPDATE THE COLOR RANGE AND COLOR_PICKER VALUE
@@ -27,5 +27,5 @@ function updateColorSlider() {
     chosen_color = `rgb(${clr_range}, ${clr_range}, ${clr_range})`;
     color_picker.value = chosen_color;
     color_range.style.backgroundColor = chosen_color;
-    hex_code.textContent = chosen_color;
+    hex_code.innerHTML = chosen_color;
 }
