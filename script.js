@@ -20,8 +20,8 @@ function updateFirst(event) {
     }
 }
 
+//CHANGED THE updateAll FUNCTION, BECAUSE I WANT TO DISPLAY THE HEX CODE OF THE CHOSEN COLOR
 function updateAll(event) {
-    document.querySelector("#hex_code").forEach((display_color) => {
-        display_color.textContent = event.target.value;
-    });
+    const hex_code = document.querySelector("#hex_code");
+    hex_code.textContent = event.target.value;
 }
