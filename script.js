@@ -22,6 +22,6 @@ function updateFirst(event) {
 
 function updateAll(event) {
     document.querySelector("#hex_code").forEach((display_color) => {
-        display_color.style.textContent = event.target.value;
+        display_color.textContent = event.target.value;
     });
 }
