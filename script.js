@@ -7,7 +7,7 @@ const input_range = document.getElementById("color_range");
 //START THE COLOR PICKER FROM BLACK (#0000) AND 0, 0
 var chosen_color = "#000000";
 var clr_range = 0;
-var input_range = 0;
+var inp_range = 0;
 
 //EVENTS
 color_picker.addEventListener("input", updateColor());
@@ -22,8 +22,8 @@ function updateColor() {
 
 //FUNCTION TO UPDATE THE COLOR RANGE AND COLOR_PICKER VALUE
 function updateColorSlider() {
-    input_range = color_range.value;
-    clr_range = Math.floor(input_range * 2.55); //CONVERTING THE RANGE (0-255) TO COLOR VALUE
+    inp_range = color_range.value;
+    clr_range = Math.floor(inp_range * 2.55); //CONVERTING THE RANGE (0-255) TO COLOR VALUE
     chosen_color = `rgb(${clr_range}, ${clr_range}, ${clr_range})`;
     color_picker.value = chosen_color;
     color_range.style.backgroundColor = chosen_color;
