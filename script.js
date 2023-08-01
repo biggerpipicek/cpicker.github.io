@@ -1,8 +1,8 @@
 //MAIN VARIABLES
-const color_picker = document.getElementById("chosen_color");
-const color_range = document.getElementById("color_palette");
-const hex_code = document.getElementById("hex_code");
-const input_range = document.getElementById("color_range");
+var color_picker = document.getElementById("chosen_color");
+var color_range = document.getElementById("color_palette");
+var hex_code = document.getElementById("hex_code");
+var input_range = document.getElementById("color_range");
 
 //START THE COLOR PICKER FROM BLACK (#0000) AND 0, 0
 var chosen_color = "#000000";
