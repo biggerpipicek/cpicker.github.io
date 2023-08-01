@@ -1,7 +1,7 @@
 //MAIN VARIABLES
 var color_picker = document.getElementById("colorPicker");
 var color_palette = document.getElementById("colorPalette");
-var hex_code = document.getElementById("hex_code");
+var hex_code = document.getElementById("hexCode");
 var color_slider = document.getElementById("colorSlider");
 
 //START THE COLOR PICKER FROM BLACK (#0000) AND 0, 0
