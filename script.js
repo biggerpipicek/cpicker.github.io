@@ -1,31 +1,27 @@
-//MAIN VARIABLES
-var color_picker = document.getElementById("colorPicker");
-var color_palette = document.getElementById("colorPalette");
-var hex_code = document.getElementById("hexCode");
-var color_slider = document.getElementById("colorSlider");
+//THIS CODE IS FROM DEVELOPER.MOZILLA.ORG, BUT I CHANGED WHERE AND HOW THE COLOR SHOULD BE DISPLAYED
+let color_picker;
+const def_color = "#000000";
 
-//START THE COLOR PICKER FROM BLACK (#0000) AND 0, 0
-var chosen_color = "#000000";
-var color_range = 0;
-var input_range = 0;
+window.addEventListener("load", startup, false);
 
-//EVENTS
-color_picker.addEventListener("input", updateColor);
-color_slider.addEventListener("input", updateColorSlider);
-
-//FUNCTION TO UPDATE THE COLOR AND RELATED ELEMENTS
-function updateColor() {
-    chosen_color = color_picker.value;
-    color_palette.style.backgroundColor = chosen_color;
-    hex_code.textContent = chosen_color;
+//THIS FUNCTION SETS A DEF COLOR
+function startup() {
+    color_picker = document.querySelector("#color_picker");
+    color_picker.value = def_color;
+    color_picker.addEventListener("input", updateFirst, false);
+    color_picker.addEventListener("change", updateAll, false);
+    color_picker.select();
 }
 
-//FUNCTION TO UPDATE THE COLOR RANGE AND COLOR_PICKER VALUE
-function updateColorSlider() {
-    inp_range = color_slider.value;
-    color_range = Math.floor(inp_range * 2.55); //CONVERTING THE RANGE (0-255) TO COLOR VALUE
-    chosen_color = `rgb(${color_range}, ${color_range}, ${color_range})`;
-    color_picker.value = chosen_color;
-    color_palette.style.backgroundColor = chosen_color;
-    hex_code.textContent = chosen_color;
+function updateFirst(event) {
+    const display_color = document.querySelector("#chosen_color");
+    if (display_color) {
+        display_color.style.backgroundColor = event.target.value;
+    }
+}
+
+function updateAll(event) {
+    document.querySelector("#hex_code").forEach((display_color) => {
+        display_color.style.textContent = event.target.value;
+    });
 }

@@ -51,11 +51,3 @@ body {
     font-size: 1.5em;
     background-color: white;
 }
-
-input[type="range"] {
-    position: absolute;
-    display: block;
-    top: 150px;
-    width: 150px;
-    height: 25px;
-}
