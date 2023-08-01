@@ -10,8 +10,8 @@ var clr_range = 0;
 var inp_range = 0;
 
 //EVENTS
-color_picker.addEventListener("input", updateColor());
-color_range.addEventListener("input", updateColorSlider());
+color_picker.addEventListener("input", updateColor);
+color_range.addEventListener("input", updateColorSlider);
 
 //FUNCTION TO UPDATE THE COLOR AND RELATED ELEMENTS
 function updateColor() {
