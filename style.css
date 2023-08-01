@@ -30,6 +30,7 @@ body {
     height: 300px;
     position: relative;
     background-color: lightpink;
+    border: none;
 }
 
 .c-container {
