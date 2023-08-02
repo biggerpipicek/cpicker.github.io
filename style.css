@@ -9,7 +9,8 @@ body {
 }
 
 h1 {
-    font-size: 1em;
+    margin: 25px;
+    font-size: 3.5em;
     font-family: "Bungee Spice", cursive;
 }
 
@@ -72,8 +73,7 @@ h1 {
 }
 
 .c-hex p {
-    font-size: 1.75em;
-    font-family: "Lillita One", cursive;
+    font-family: "Lilita One", cursive;    
 }
 
 button#copy {
