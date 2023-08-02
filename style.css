@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lilita+One&display=swap');
+
 body {
     background: rgb(59,59,204);
     background: linear-gradient(0deg, rgba(59,59,204,1) 0%, rgba(0,212,255,1) 50%, rgba(59,59,204,1) 100%) fixed;
     font-family: sans-serif;
     font-size: 1em;
     text-align: center;
+}
+
+h1 {
+    font-size: 1em;
+    font-family: "Bungee Spice", cursive;
 }
 
 .container {
@@ -62,6 +69,11 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.18);
     justify-content: center;
     align-items: center;
+}
+
+.c-hex p {
+    font-size: 1.75em;
+    font-family: "Lillita One", cursive;
 }
 
 button#copy {
