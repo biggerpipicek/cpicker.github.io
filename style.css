@@ -76,16 +76,17 @@ button#copy {
     backdrop-filter: blur( 8px );
     -webkit-backdrop-filter: blur( 8px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgb( 255, 255, 255 );
     justify-content: center;
     align-items: center;
     transition: background 0.5s ease-in-out;
+    cursor: pointer;
 }
 
 button#copy:hover {
-    background: rgba(255, 255, 255, 0.75);
+    background: rgba(230, 230, 230);
 }
 
 button#copy:focus {
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(205, 205, 205);
 }
