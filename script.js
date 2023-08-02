@@ -25,3 +25,7 @@ function updateAll(event) {
     const hex_code = document.querySelector("#hex_code");
     hex_code.textContent = event.target.value;
 }
+
+function copy() {
+    navigator.clipboard.writeText(hex_code);
+}
