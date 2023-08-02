@@ -15,12 +15,12 @@ body {
     margin: auto;
     width: 900px;
     height: 350px;
-    background: rgba( 152, 36, 36, 0.2 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 8px );
+    background: rgba(152, 36, 36, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur( 8px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .c-box {
@@ -54,12 +54,12 @@ body {
     width: 150px;
     height: 50px;
     font-size: 1.5em;
-    background: rgba( 255, 255, 255, 0.65 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 8px );
-    -webkit-backdrop-filter: blur( 8px );
+    background: rgba(255, 255, 255, 0.65);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba(255, 255, 255, 0.18);
     justify-content: center;
     align-items: center;
 }
@@ -71,12 +71,12 @@ button#copy {
     height: 50px;
     top: 25px;
     font-size: 1.5em;
-    background: rgba( 255, 255, 255, 0.65 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background: rgb(255, 255, 255);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur( 8px );
     -webkit-backdrop-filter: blur( 8px );
     border-radius: 10px;
-    border: 1px solid rgb( 255, 255, 255 );
+    border: 1px solid rgb(255, 255, 255, 0.18);
     justify-content: center;
     align-items: center;
     transition: background 0.5s ease-in-out;
@@ -84,9 +84,9 @@ button#copy {
 }
 
 button#copy:hover {
-    background: rgba(230, 230, 230);
+    background: rgba(255, 255, 255);
 }
 
 button#copy:focus {
-    background: rgba(205, 205, 205);
+    background: rgba(255, 255, 255);
 }
