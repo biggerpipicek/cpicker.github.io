@@ -27,5 +27,6 @@ function updateAll(event) {
 }
 
 function copy() {
-    navigator.clipboard.writeText(hex_code);
+    const hex_code_copy = document.querySelector("#hex_code").textContent;
+    navigator.clipboard.writeText(hex_code_copy);
 }
