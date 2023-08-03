@@ -9,7 +9,6 @@ function startup() {
     color_picker = document.querySelector("#color_picker");
     color_picker.value = def_color;
     color_picker.addEventListener("input", updateFirst, false);
-    color_picker.addEventListener("change", updateAll, false);
     color_picker.select();
 }
 
