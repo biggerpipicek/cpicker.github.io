@@ -108,5 +108,13 @@ button#copy:focus {
     .container {
         width: 400px;
         height: 900px;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .c-container {
+        width: 300px;
+        height: 300px;
+        justify-content: center;
     }
 }
