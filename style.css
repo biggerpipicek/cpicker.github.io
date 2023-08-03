@@ -10,7 +10,7 @@ body {
 
 h1 {
     margin: 25px;
-    font-size: 3.5em;
+    font-size: 4em;
     font-family: "Bungee Spice", cursive;
 }
 
@@ -74,12 +74,13 @@ h1 {
 }
 
 button#copy {
+    font-family: "Lilita One", cursive;
     position: relative;
     display: flex;
     width: 150px;
     height: 50px;
     top: 25px;
-    font-size: 1.5em;
+    font-size: 2em;
     background: rgb(255, 255, 255);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur( 8px );
@@ -88,7 +89,7 @@ button#copy {
     border: 1px solid rgb(255, 255, 255, 0.18);
     justify-content: center;
     align-items: center;
-    transition: background 0.5s ease-in-out;
+    transition: background 0.25s ease-in-out;
     cursor: pointer;
 }
 
