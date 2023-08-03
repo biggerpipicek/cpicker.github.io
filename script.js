@@ -22,12 +22,6 @@ function updateFirst(event) {
     }
 }
 
-//CHANGED THE updateAll FUNCTION, BECAUSE I WANT TO DISPLAY THE HEX CODE OF THE CHOSEN COLOR
-/*function updateAll(event) {
-    const hex_code = document.querySelector("#hex_code");
-    hex_code.textContent = event.target.value;
-}*/
-
 function copy() {
     const hex_code_copy = document.querySelector("#hex_code").textContent;
     navigator.clipboard.writeText(hex_code_copy);
