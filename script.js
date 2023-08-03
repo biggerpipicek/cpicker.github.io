@@ -17,14 +17,16 @@ function updateFirst(event) {
     const display_color = document.querySelector("#chosen_color");
     if (display_color) {
         display_color.style.backgroundColor = event.target.value;
+        const hex_code = document.querySelector("#hex_code");
+        hex_code.textContent = event.target.value;
     }
 }
 
 //CHANGED THE updateAll FUNCTION, BECAUSE I WANT TO DISPLAY THE HEX CODE OF THE CHOSEN COLOR
-function updateAll(event) {
+/*function updateAll(event) {
     const hex_code = document.querySelector("#hex_code");
     hex_code.textContent = event.target.value;
-}
+}*/
 
 function copy() {
     const hex_code_copy = document.querySelector("#hex_code").textContent;
