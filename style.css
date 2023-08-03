@@ -106,6 +106,15 @@ button#copy:focus {
 
 /* MOBILE VERSION */
 @media screen and (max-width: 420px) {
+
+    .c-box {
+        top: 25px;
+    }
+
+    .c-range-box {
+        top: 25px;
+    }
+
     .container {
         width: 350px;
         height: 900px;
