@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lilita+One&display=swap');
 
+/* PC VERSION */
+
 body {
     background: rgb(59,59,204);
     background: linear-gradient(0deg, rgba(59,59,204,1) 0%, rgba(0,212,255,1) 50%, rgba(59,59,204,1) 100%) fixed;
@@ -99,4 +101,12 @@ button#copy:hover {
 
 button#copy:focus {
     background: rgba(205, 205, 205);
+}
+
+/* MOBILE VERSION */
+@media screen and (max-width: 420px) {
+    .container {
+        width: 400px;
+        height: 900px;
+    }
 }
